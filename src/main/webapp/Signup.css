@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+body{
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0faff;
+}
+.main{
+ 
+    position: relative;
+    max-width: 470px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 30px 120px;
+    background-color: #4070f4;
+}
+header{
+    font-size: 30px;
+    text-align:  center;
+    color: white;
+
+}
+
+#uname{
+    
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+   
+}
+#phno{
+    
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+   
+}
+#eml{
+    
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+   
+}
+#pas{
+    
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+   
+}
+#min{
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 10px;
+
+}
+#max{
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 10px;
+
+}
+#ph{
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+#sub{
+    position: relative;
+    top:85px ;
+    left: 50px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+}
+#dta{
+	height: 40px;
+    width: 350px;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+    padding-top: 10px;
+}
+#sub:hover{
+    background-color: rgb(21, 10, 214);
+    color: white;
+}
+#reg{
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+#cnl{
+    position: relative;
+    top:85px ;
+    left: 100px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    border-style: none;
+}
+#cnl:hover{
+    background-color: rgb(21, 10, 214);
+    color: white;
+}
+a{
+    text-decoration:  none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+a:hover{
+    color: white;
+}
+#forget{
+	position: relative;
+	left: 20px;
+	top: -10px;
+	text-decoration:  none;
+    color: black;
+    font-weight: 100;
+    
+}
+#forget:hover{
+    color: white;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home page</title>
+</head>
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+   body{
+      background-image: url("bgimg.jpg");
+   }
+   nav{
+      border: 1px solid black;
+      height: 70px;
+      background-color: rgb(21, 10, 214);
+   }
+   button{
+      height: 30px;
+      width: 70px;
+      border: none;
+      background-color:rgb(21, 10, 214);
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+   }
+   a{
+      text-decoration: none;
+   }
+   #signup{
+      position: absolute;
+      top: 20px;
+      left: 1150px;
+   }
+   #login{
+      position: absolute;
+      top:20px;
+      left:1050px;
+   }
+   #home{
+	    position: absolute;
+      top:20px;
+      left:100px;
+   }
+   button:hover{
+	   color: orangered;
+   }
+</style>
+<body>
+   
+   <nav>
+	 <a href="Home.html" id="home">   <button>Home</button> </a>
+      <a href="Login.html" id="login"> <button>Login</button> </a>
+       <a href="Signup.html" id="signup"><button>signup</button></a> 
+   </nav>
+   <h1>Welcome to my Restaurant</h1>
+   
+</body>
+</html>

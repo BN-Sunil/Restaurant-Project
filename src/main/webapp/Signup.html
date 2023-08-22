@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>signuppage</title>
+<link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+         <section class="main">
+    <div class="login">
+      <header>signup</header>
+
+      <form action="signup" method="post" enctype="multipart/form-data">
+        
+        <input type="text" class="box" id="uname" placeholder="name" name="user" > 
+        <input type="number" class="box" id="phno" placeholder="Phone number" name="phno" required> 
+        <input type="email" class="box" id="eml" placeholder="Email" name="email"> 
+        <input type="text" class="box" id="pas" placeholder="Password" name="pass" required> 
+         <div id="min">Gender: <input type="radio" class="box" id="" name="gender" value="male">male 
+         <input type="radio" class="box" id="" name="gender" value="female" >female  </div>
+          <div id="max"> country <select name="country">
+			<option>India</option>
+			<option>Uganda</option>
+		</select>  </div>
+		
+	    <div id="ph"> picture:	<input type="file" name="picture" required> </div>
+	    <div id="dta">DOB:<input type="date"  name="dob" required> </div> 
+          
+         <button id="sub">Signup</button>
+          <button id="cnl" type="reset">cancel</button>
+       
+         <p id="reg">already registered <a href="Login.html">Login</a></p>
+      </form>
+    </div>
+  </section>
+      
+</body>
+</html>
