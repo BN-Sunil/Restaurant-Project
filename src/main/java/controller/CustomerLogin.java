@@ -22,6 +22,14 @@ public class CustomerLogin extends HttpServlet {
 		//verify if email exit
 		
 		MyDao dao = new MyDao();
+		if(email.equals("admin@gmail.com")&& pass.equals("admin"))
+		{
+			resp.getWriter().print("<h1 style='color:red'>login sucess</h1>");
+			req.getRequestDispatcher("Admin.html").include(req, resp);
+		}
+		else {
+			
+		
 
 		Customer customer=dao.fetchByEmail(email);
 		if(customer==null) {
@@ -40,6 +48,7 @@ public class CustomerLogin extends HttpServlet {
 			}
 		}
 		
+	}
 	}
 	
 

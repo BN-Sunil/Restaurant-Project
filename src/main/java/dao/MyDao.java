@@ -9,6 +9,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 import Dto.Customer;
+import Dto.Item;
 
 public class MyDao {
 	EntityManagerFactory e = Persistence.createEntityManagerFactory("dev");
@@ -20,6 +21,11 @@ public class MyDao {
 		m.persist(cust);
 		t.commit();
 
+	}
+	public void item(Item ite) {
+		t.begin();
+		m.persist(ite);
+		t.commit();
 	}
 
 	public Customer fetchByEmail(String email) {
@@ -40,6 +46,9 @@ public class MyDao {
 			return list.get(0);
 	}
 
-
+  public List<Item> fetchAllFooditem(){
+	  return  m.createQuery("select x from Item x").getResultList();
+	  
+  }
 
 }
